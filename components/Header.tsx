@@ -26,7 +26,7 @@ function Header({}:Props) {
         animate={{x: 0,opacity: 1,scale: 1}}
         transition={{duration: 1.5}}
         className='flex flex-row items-center text-gray-600 cursor-pointer'>
-            <SocialIcon className="cursor-pointer" network="mailto" fgColor="black" bgColor="transparent" />
+            <SocialIcon className="cursor-pointer" network="mailto" fgColor="white" bgColor="transparent" />
             <p className="uppercase hidden md:inline-flex text-sm text-red-600">Get in Touch!</p>
         </motion.div> 
         
