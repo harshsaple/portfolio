@@ -15,7 +15,7 @@ function Hero() {
       })
 
   return (
-    <div className='h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-4'>
+    <div className='h-screen flex flex-col items-center justify-center text-center overflow-hidden pt-10'>
         
         <BackgroundShape/>
 
@@ -25,7 +25,7 @@ function Hero() {
             transition={{ duration: 1.5 }}
             className='flex flex-row items-center'>
                 {/*Socials*/}
-                <img src={'/Harsh_Saple.jpg'} alt="Harsh's image" className='relative rounded-full h-40 w-40 mx-auto object-cover m-4'/>
+                <img src={'/Harsh_Saple.jpg'} alt="Harsh's image" className='relative rounded-full h-64 w-64 mx-auto object-cover m-6'/>
         </motion.div>
 
         <h2 className='uppercase text-sm font-extralight tracking-[15px] pb-4'>Software Engineer</h2>
