@@ -10,6 +10,10 @@ function Experience({}: Props) {
            Experience
         </h3>
 
+        <h3 className='absolute top-50 uppercase tracking-[20px] test-gray-500 text-2xl '>
+           RELEASING SOON! STAY TUNED!
+        </h3>
+
 
     </div>
   )
